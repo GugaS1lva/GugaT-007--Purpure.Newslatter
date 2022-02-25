@@ -1,0 +1,24 @@
+@media screen and (max-width: 760px){
+    header{
+        flex-direction: column;
+    }
+
+    main{
+        flex-direction: column;
+    }
+    main > aside > h1{
+        font-size: 38px;
+    }
+
+    main > aside > form{
+        margin: 0 auto;
+    }
+
+    main > article > img{
+        display: none;
+    }
+
+    form [type="submit"]{
+        width: 100%;
+    }
+}
